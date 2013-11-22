@@ -112,6 +112,9 @@ h4 {
 #speaker-bio .close {
 	opacity: .8;
 }
+#speaker-bio .speaker-bio-photo {
+	margin: 5px 5px;
+}
 
 /* ==========================================================================
    Topic Styles
@@ -268,7 +271,7 @@ h4 {
 	}
 }
 #sponsor .sponsor-type > li {
-	margin: 20px auto;
+	margin: 10px auto;
 }
 #sponsor .sponsor-list {
 	display: inline;
@@ -278,6 +281,10 @@ h4 {
 	display: inline-block;
 	width: 150px;
 	margin: 10px auto;
+}
+#sponsor img {
+	max-width: 120px;
+	max-height: 72px;
 }
 /* ==========================================================================
    Footer Styles
