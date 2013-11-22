@@ -174,9 +174,8 @@ $(document).ready(function() {
 		var photoWidth = $(this).find('img').width();
 		var photoHeight = $(this).find('img').height();
 		var maskLeft = 0;
-		//console.log('photoWidth:'+photoWidth+'   photoHeight:'+photoHeight);
 		var speaker = TEDxKowloon.getSpeaker(speakerId);
-		//alert(position);
+
 		$('#speaker-bio').slideUp('fast', function(){
 			$('#speaker-bio .speaker-bio-name').html(speaker.name);
 			$('#speaker-bio .speaker-bio').html(speaker.bio);
@@ -227,4 +226,10 @@ $(document).ready(function() {
 	$('#speaker-bio').on('click', '.close', function(){
 		$('#speaker-bio').slideUp();
 	});
+
+	try{
+		if(window.console && window.console.info) {
+			console.info('\n            __     __       \n           /  \\~~~/  \\    \n     ,----(     ..    ) \n    /      \\__     __/   \n   /|         (\\  |(\n  ^ \\   /___\\  /\\ |   http://www.lovelucy.info\n     |__|   |__|-"    \n\n');
+		}
+	} catch(e) {}
 });
