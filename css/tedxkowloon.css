@@ -298,6 +298,9 @@ footer .container {
 	text-align: center;
 	padding: 20px 15px;
 }
+footer a {
+	color: #555;
+}
 footer .logos,
 footer .copyright {
 	display: inline-block;
